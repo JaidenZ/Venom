@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31612.314
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00_Framework", "00_Framework", "{C2E7CF28-0E66-46E0-832C-EB170470022F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Entity", "01_Entity", "{B66DF6AA-30F6-440F-8B28-3230F07DFEB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Service", "02_Service", "{284EA753-A9B6-4056-AC46-7B8F1ACE8D4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Core", "03_Core", "{80479C78-F996-4308-88B5-71DC239C69D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_Host", "04_Host", "{E0396D15-0E2B-48DA-AAF7-CDDDBA2F6248}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_Create", "05_Create", "{D342B72E-292D-48FA-9C28-55F71BBB34FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Venom.Core.Component", "03_Core\Venom.Core.Component\Venom.Core.Component.csproj", "{610CC928-18B3-4E68-A399-4B136BF8148D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Venom.Host.ConsoleApp", "04_Host\Venom.Host.ConsoleApp\Venom.Host.ConsoleApp.csproj", "{DAD3391C-70E4-4B8F-B57D-5B69514BBACF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{610CC928-18B3-4E68-A399-4B136BF8148D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{610CC928-18B3-4E68-A399-4B136BF8148D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{610CC928-18B3-4E68-A399-4B136BF8148D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{610CC928-18B3-4E68-A399-4B136BF8148D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD3391C-70E4-4B8F-B57D-5B69514BBACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD3391C-70E4-4B8F-B57D-5B69514BBACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD3391C-70E4-4B8F-B57D-5B69514BBACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD3391C-70E4-4B8F-B57D-5B69514BBACF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{610CC928-18B3-4E68-A399-4B136BF8148D} = {80479C78-F996-4308-88B5-71DC239C69D0}
+		{DAD3391C-70E4-4B8F-B57D-5B69514BBACF} = {E0396D15-0E2B-48DA-AAF7-CDDDBA2F6248}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F38E793-CB73-4C1A-991C-16441C8AC92C}
+	EndGlobalSection
+EndGlobal
