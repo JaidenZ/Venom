@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Venom.Service.RuntimeServic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Venom.Entity.Core", "01_Entity\Venom.Entity.Core\Venom.Entity.Core.csproj", "{1A1F46B6-88DC-433A-9354-8966C6CCE834}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Venom.Entity.Runtime", "01_Entity\Venom.Entity.Runtime\Venom.Entity.Runtime.csproj", "{5E1F315E-B62B-474B-B68C-E60DCD8AD0C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{1A1F46B6-88DC-433A-9354-8966C6CCE834}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A1F46B6-88DC-433A-9354-8966C6CCE834}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A1F46B6-88DC-433A-9354-8966C6CCE834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E1F315E-B62B-474B-B68C-E60DCD8AD0C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E1F315E-B62B-474B-B68C-E60DCD8AD0C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E1F315E-B62B-474B-B68C-E60DCD8AD0C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E1F315E-B62B-474B-B68C-E60DCD8AD0C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +60,7 @@ Global
 		{DAD3391C-70E4-4B8F-B57D-5B69514BBACF} = {E0396D15-0E2B-48DA-AAF7-CDDDBA2F6248}
 		{BF945EE9-A4AC-4D3C-BA21-45FF4679C270} = {284EA753-A9B6-4056-AC46-7B8F1ACE8D4B}
 		{1A1F46B6-88DC-433A-9354-8966C6CCE834} = {B66DF6AA-30F6-440F-8B28-3230F07DFEB4}
+		{5E1F315E-B62B-474B-B68C-E60DCD8AD0C1} = {B66DF6AA-30F6-440F-8B28-3230F07DFEB4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2F38E793-CB73-4C1A-991C-16441C8AC92C}
