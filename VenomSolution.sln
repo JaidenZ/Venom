@@ -17,7 +17,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_Create", "05_Create", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Venom.Core.Component", "03_Core\Venom.Core.Component\Venom.Core.Component.csproj", "{610CC928-18B3-4E68-A399-4B136BF8148D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Venom.Host.ConsoleApp", "04_Host\Venom.Host.ConsoleApp\Venom.Host.ConsoleApp.csproj", "{DAD3391C-70E4-4B8F-B57D-5B69514BBACF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Venom.Host.ConsoleApp", "04_Host\Venom.Host.ConsoleApp\Venom.Host.ConsoleApp.csproj", "{DAD3391C-70E4-4B8F-B57D-5B69514BBACF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Venom.Service.RuntimeService", "02_Service\Venom.Service.RuntimeService\Venom.Service.RuntimeService.csproj", "{BF945EE9-A4AC-4D3C-BA21-45FF4679C270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Venom.Entity.Core", "01_Entity\Venom.Entity.Core\Venom.Entity.Core.csproj", "{1A1F46B6-88DC-433A-9354-8966C6CCE834}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{DAD3391C-70E4-4B8F-B57D-5B69514BBACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAD3391C-70E4-4B8F-B57D-5B69514BBACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAD3391C-70E4-4B8F-B57D-5B69514BBACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF945EE9-A4AC-4D3C-BA21-45FF4679C270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF945EE9-A4AC-4D3C-BA21-45FF4679C270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF945EE9-A4AC-4D3C-BA21-45FF4679C270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF945EE9-A4AC-4D3C-BA21-45FF4679C270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1F46B6-88DC-433A-9354-8966C6CCE834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1F46B6-88DC-433A-9354-8966C6CCE834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1F46B6-88DC-433A-9354-8966C6CCE834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1F46B6-88DC-433A-9354-8966C6CCE834}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +52,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{610CC928-18B3-4E68-A399-4B136BF8148D} = {80479C78-F996-4308-88B5-71DC239C69D0}
 		{DAD3391C-70E4-4B8F-B57D-5B69514BBACF} = {E0396D15-0E2B-48DA-AAF7-CDDDBA2F6248}
+		{BF945EE9-A4AC-4D3C-BA21-45FF4679C270} = {284EA753-A9B6-4056-AC46-7B8F1ACE8D4B}
+		{1A1F46B6-88DC-433A-9354-8966C6CCE834} = {B66DF6AA-30F6-440F-8B28-3230F07DFEB4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2F38E793-CB73-4C1A-991C-16441C8AC92C}
