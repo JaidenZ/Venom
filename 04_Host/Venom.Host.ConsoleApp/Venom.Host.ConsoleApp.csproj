@@ -5,4 +5,8 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\03_Core\Venom.Core.Component\Venom.Core.Component.csproj" />
+  </ItemGroup>
+
 </Project>
