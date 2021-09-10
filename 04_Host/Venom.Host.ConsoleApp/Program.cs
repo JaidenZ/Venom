@@ -9,7 +9,7 @@
         static void Main(string[] args)
         {
 
-            ConstructorContainer.GetInstance().Run();
+            ConstructorContainer.GetInstance();
 
             Console.ReadKey(false);
         }
