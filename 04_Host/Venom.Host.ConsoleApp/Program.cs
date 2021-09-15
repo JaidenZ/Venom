@@ -1,15 +1,20 @@
 ﻿namespace Venom.Host.ConsoleApp
 {
     using System;
-    using Venom.Core.Component.Constructor;
-
-
+    using System.Net.Http;
+    using System.Threading.Tasks;
+    using Grpc.Net.Client;
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-
-            ConstructorContainer.GetInstance();
+            // The port number(5001) must match the port of the gRPC server.
+            using var channel = GrpcChannel.ForAddress("https://localhost:5001");
+            var client = new Greeter.GreeterClient(channel);
+            var reply = await client.SayHelloAsync(new HelloRequest { Name = "VenomHost.ConsoleApp" });
+            
+            Console.WriteLine("Greeting: " + reply.Message);
+            Console.WriteLine("Press any key to exit...");
 
             Console.ReadKey(false);
         }
