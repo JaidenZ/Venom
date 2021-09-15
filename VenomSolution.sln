@@ -19,11 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Venom.Core.Component", "03_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Venom.Host.ConsoleApp", "04_Host\Venom.Host.ConsoleApp\Venom.Host.ConsoleApp.csproj", "{DAD3391C-70E4-4B8F-B57D-5B69514BBACF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Venom.Service.RuntimeService", "02_Service\Venom.Service.RuntimeService\Venom.Service.RuntimeService.csproj", "{BF945EE9-A4AC-4D3C-BA21-45FF4679C270}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Venom.Service.RuntimeService", "02_Service\Venom.Service.RuntimeService\Venom.Service.RuntimeService.csproj", "{BF945EE9-A4AC-4D3C-BA21-45FF4679C270}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Venom.Entity.Core", "01_Entity\Venom.Entity.Core\Venom.Entity.Core.csproj", "{1A1F46B6-88DC-433A-9354-8966C6CCE834}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Venom.Entity.Core", "01_Entity\Venom.Entity.Core\Venom.Entity.Core.csproj", "{1A1F46B6-88DC-433A-9354-8966C6CCE834}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Venom.Entity.Runtime", "01_Entity\Venom.Entity.Runtime\Venom.Entity.Runtime.csproj", "{5E1F315E-B62B-474B-B68C-E60DCD8AD0C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Venom.Entity.Runtime", "01_Entity\Venom.Entity.Runtime\Venom.Entity.Runtime.csproj", "{5E1F315E-B62B-474B-B68C-E60DCD8AD0C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
