@@ -80,7 +80,7 @@
         {
             maps = new List<Map>();
             AssemblyName an = new AssemblyName("?");
-            AssemblyBuilder ab = AssemblyBuilder.DefineDynamicAssembly(an, AssemblyBuilderAccess.RunAndCollect);
+            AssemblyBuilder ab = AssemblyBuilder.DefineDynamicAssembly(an, AssemblyBuilderAccess.Run);
             MODULE_BUILDER = ab.DefineDynamicModule(an.Name);
         }
 

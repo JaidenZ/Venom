@@ -2,13 +2,11 @@
 {
     using Venom.Entity.Runtime;
     using Venom.Core.Component.Aop.Service;
-    using Venom.Service.RuntimeService.Filter;
     
     /// <summary>
-    /// 
+    /// 运行时服务
     /// </summary>
-    [ServiceObject(ServiceName = "运行时测试服务" , ServiceFilter = typeof(RuntimeTestFilter))]
-    public interface IRuntimeTestService : IServiceBase
+    public interface IRuntimeService : IServiceBase
     {
 
         /// <summary>

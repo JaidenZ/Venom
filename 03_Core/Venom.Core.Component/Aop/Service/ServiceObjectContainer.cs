@@ -14,7 +14,7 @@
             if (assembly == null)
                 throw new ArgumentNullException();
             ServiceBaseContainer.Current.Load(assembly);
-            ServiceFilterContainer.Current.Load(assembly);
+            //ServiceFilterContainer.Current.Load(assembly);
         }
 
         public static T Get<T>() where T : class

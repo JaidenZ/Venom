@@ -1,15 +1,11 @@
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Threading.Tasks;
-using Venom.Core.Component.Aop.Service;
-
 namespace Venom.Host.GrpcServer
 {
+    using System.Reflection;
+    using Microsoft.Extensions.Hosting;
+    using Microsoft.AspNetCore.Hosting;    
+    using Venom.Core.Component.Aop.Service;
+
+
     public class Program
     {
         public static void Main(string[] args)
@@ -27,10 +23,11 @@ namespace Venom.Host.GrpcServer
                     webBuilder.UseStartup<Startup>();
                 });
 
-        public static void CreatIocServiceContainer()
+        protected static void CreatIocServiceContainer()
         {
             Assembly serviceAssembly = Assembly.Load("Venom.Service.RuntimeService");
             ServiceObjectContainer.Load(serviceAssembly);
+
         }
     }
 }

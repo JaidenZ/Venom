@@ -20,16 +20,16 @@ namespace Venom.Host.GrpcServer
         public override Task<HelloReply> SayHello(HelloRequest request, ServerCallContext context)
         {
 
-            //string message = ServiceObjectContainer.Get<IRuntimeTestService>().RegistVenomHost(new Entity.Runtime.VenomRuntimeEntity()
-            // {
-            //     HostName = context.Host,
-            //     HostDeviceName = request.Name
-            // });
+            string message = ServiceObjectContainer.Get<IRuntimeService>().RegistVenomHost(new Entity.Runtime.VenomRuntimeEntity()
+            {
+                HostName = context.Host,
+                HostDeviceName = request.Name
+            });
 
 
             return Task.FromResult(new HelloReply
             {
-                Message = request.Name + context.Host
+                Message = request.Name + message
             });
         }
     }
