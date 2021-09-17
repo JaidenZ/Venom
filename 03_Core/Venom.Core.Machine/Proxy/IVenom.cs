@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Venom.Core.Machine.Proxy
+﻿namespace Venom.Core.Machine.Proxy
 {
+    using System;
+
+
     internal interface IVenom:IMachineBase
     {
         /// <summary>
