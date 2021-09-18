@@ -1,9 +1,6 @@
 ﻿namespace Venom.Core.Machine.Proxy
 {
-    using System;
-
-
-    internal interface IVenom:IMachineBase
+    internal interface IVenom
     {
         /// <summary>
         /// 修正思维
@@ -15,8 +12,6 @@
         /// 执行行为
         /// </summary>
         abstract void ExecuteBehavior(IBehavior behavior);
-
-
 
 
     }

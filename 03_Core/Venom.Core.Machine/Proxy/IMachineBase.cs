@@ -14,7 +14,7 @@
 
         DateTime InitialTime { get; }
 
-        abstract void InitialMachine(string machineName);
+        void InitialMachine(string machineName);
     }
 
 
@@ -39,8 +39,8 @@
 
         int BehaviorState { get; set; }
 
-
-
+        
     }
+
 
 }
