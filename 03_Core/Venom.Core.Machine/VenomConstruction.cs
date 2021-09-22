@@ -10,14 +10,18 @@ namespace Venom.Core.Machine
 
     public partial class VenomConstruction : MachineBase
     {
-        public override string MachineName { get; private set; }
 
-        public override DateTime InitialTime => throw new NotImplementedException();
+        private string _machineName;
+        private DateTime _initTime;
+
+        public override string MachineName { get { return _machineName; } }
+
+        public override DateTime InitialTime { get { return _initTime; } }
 
         public override void InitialMachine(string machineName)
         {
-            this.MachineName = machineName;
-
+            this._machineName = machineName;
+            this._initTime = DateTime.Now;
         }
 
         internal override void CreatVenomBuiler(IVenom venom)
